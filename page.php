@@ -48,11 +48,17 @@ switch ($page) {
     case 'games':
         echo '<h1>Games</h1><p>Games are coming soon stay up to date in the '.$siteName.' Discord!</p>';
         break;
+    case 'login':
+        echo '<h1>Login</h1><p>Login is coming soon stay up to date in the '.$siteName.' Discord!</p>';
+        break;
+    case 'register':
+        echo '<h1>Games</h1><p>Register is coming soon stay up to date in the '.$siteName.' Discord!</p>';
+        break;
     case 'forum':
         echo '<h1>Forum</h1><p>Forums are coming soon stay up to date in the '.$siteName.' Discord!</p>';
         break;
     default:
-        echo '<h1>Page not found</h1><p>The requested page does not exist. (Still mining lol)</p>';
+        echo '<h1>Page not found</h1><p>The requested page does not exist.</p>';
         break;
 }
 ?>
