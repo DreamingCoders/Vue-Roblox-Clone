@@ -43,7 +43,7 @@ $siteName = "One Page App";
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                             <a class="nav-link" id="notstart" href="#" @click="loadPage('defaultPage')">Home</a>
                         </li>
@@ -52,6 +52,14 @@ $siteName = "One Page App";
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="notstart" href="#" @click="loadPage('forum')">Forums</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" id="notstart" href="#" @click="loadPage('login')">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="notstart" href="#" @click="loadPage('register')">Register</a>
                         </li>
                     </ul>
                 </div>
