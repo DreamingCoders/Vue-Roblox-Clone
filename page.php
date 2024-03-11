@@ -52,7 +52,7 @@ switch ($page) {
         echo '<h1>Login</h1><p>Login is coming soon stay up to date in the '.$siteName.' Discord!</p>';
         break;
     case 'register':
-        echo '<h1>Games</h1><p>Register is coming soon stay up to date in the '.$siteName.' Discord!</p>';
+        echo '<h1>Register</h1><p>Register is coming soon stay up to date in the '.$siteName.' Discord!</p>';
         break;
     case 'forum':
         echo '<h1>Forum</h1><p>Forums are coming soon stay up to date in the '.$siteName.' Discord!</p>';
