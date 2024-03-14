@@ -1,6 +1,11 @@
 # Vue-Roblox-Clone
 VRC is the most advanced ROBLOX clone that offers real-time page loading and dynamic fallbacks, avatar rendering is provided unlike the discontinued "LRC"
 
+# For the Client
+Access this Repository
+https://github.com/DreamingCoders/polytoria
+
+# Install
 Install.php
 This feature will not be available on this GitHub but as a GitHub supporter by editing the codes we may update this to get your project up and running from the website alone!
 
