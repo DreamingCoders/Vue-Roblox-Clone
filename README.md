@@ -37,3 +37,7 @@ $current .= "<?php echo 'Hello world!';?>";
 file_put_contents($file, $current);
 ?>
 ```
+
+
+There is a launcher but you don't really have to use it it's optional
+https://github.com/DreamingCoders/VRCLauncher/tree/main
