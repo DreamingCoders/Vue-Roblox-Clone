@@ -5,6 +5,10 @@ VRC is the most advanced ROBLOX clone that offers real-time page loading and dyn
 Access this Repository
 https://github.com/DreamingCoders/polytoria
 
+# For Trade/Value (Website official or unofficial usage)
+Access this Repository
+https://github.com/DreamingCoders/VRCTrade
+
 # Install
 Install.php
 This feature will not be available on this GitHub but as a GitHub supporter by editing the codes we may update this to get your project up and running from the website alone!
