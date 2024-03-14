@@ -1,17 +1,22 @@
 <?php
+// If there isn't a header/config detected we can add custom overrides here, generally it will run false flags for now.
 if(!isset($isHeader)){
-    // If there isn't a header detected we can add custom overrides here, generally it will run false flags for now.
 }
 if(!isset($isConfig)){
-    // If there isn't a config detected we can add custom overrides here, generally it will run false flags for now.
 }
 if(!isset($siteName)){
-$siteName = "One Page"; // If you dont want to load header or config, preferrably used for skeleton API's or single static data.
+$siteName = "One Page"; // If you don't want to load the header use skeleton API
 }
 
 $page = $_GET['page'];
 
 // 'Single Page' Interface.
+    // To edit HTML go to blade-(name).php it contains the variable for the frontend code
+        // to edit PHP/Backend go to backend-(name).php. Please note you can still use backend on blade pages
+    // blade-default.php
+    // blade.games.php
+        // backend-default.php
+        // backend-games.php
 ?>
 
 <?php
@@ -56,6 +61,34 @@ switch ($page) {
         break;
     case 'forum':
         echo '<h1>Forum</h1><p>Forums are coming soon stay up to date in the '.$siteName.' Discord!</p>';
+        break;
+    default:
+    case 'search':
+        if(isset($_POST['search'])){
+            echo"<div class='alert alert-danger text-center'>Failed to search POST!</div>";
+        }
+        echo '<h1>Search</h1>
+        <form action="#" method="POST">
+            <input type="text" name="search" class="form-control" placeholder="Search and press Enter">
+        </form>
+        <div class="row">
+            <div class="col">
+                <h5>Example User</h5>
+                <img src="https://nova-cubes.com/storage/avatars/uma/2.png" class="img-fluid">
+            </div>
+            <div class="col">
+                <h5>Example User</h5>
+                <img src="https://nova-cubes.com/storage/avatars/uma/2.png" class="img-fluid">
+            </div>
+            <div class="col">
+                <h5>Example User</h5>
+                <img src="https://nova-cubes.com/storage/avatars/uma/2.png" class="img-fluid">
+            </div>
+            <div class="col">
+                <h5>Example User</h5>
+                <img src="https://nova-cubes.com/storage/avatars/uma/2.png" class="img-fluid">
+            </div>
+        </div>';
         break;
     default:
         echo '<h1>Page not found</h1><p>The requested page does not exist.</p>';
