@@ -17,9 +17,16 @@ $page = $_GET['page'];
     // blade.games.php
         // backend-default.php
         // backend-games.php
-?>
 
-<?php
+include('pageHandler.php'); // gonna remove echos
+/*
+$defaultPage = "";
+$gamesPage = "";
+$loginPage = "";
+$registerPage = "";
+$forumPage = "";
+$searchPage = "";
+*/
 switch ($page) {
     case 'defaultPage':
         echo '
