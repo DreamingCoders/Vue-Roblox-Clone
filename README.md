@@ -17,3 +17,14 @@ We kinda do have a purpose for install.php, you need Blender!
 go to https://yourwebsite.com/install.php?installBlender = true;
 
 It may ask you a few things and might not be automated for the time being.
+
+WIP:
+```php
+<?php
+$file = 'source.php';
+$current = file_get_contents($file);
+$current .= "<?php echo 'Hello world!';?>";
+// Write the contents back to the file
+file_put_contents($file, $current);
+?>
+```
