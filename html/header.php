@@ -65,3 +65,6 @@ $siteName = "One Page App";
                 </div>
             </div>
         </nav>
+    <div class="alert alert-danger text-center text-white">
+        Alert! One Page App is still in the development stages!
+    </div>
