@@ -31,7 +31,7 @@ $vueCode = "new Vue({
     }
 });";
 
-include('../core/config.php'); // This needs to be fixed.
+include($_SERVER['DOCUMENT_ROOT'].'/core/config.php'); // fixed.
 $siteName = "One Page App";
 // just include all of this on a config page so page can get referenced it.
 ?>
