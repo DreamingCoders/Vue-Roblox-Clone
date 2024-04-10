@@ -32,7 +32,7 @@ WIP:
 <?php
 $file = 'source.php';
 $current = file_get_contents($file);
-$current .= "<?php echo 'Hello world!';?>";
+$current .= "<?php exec("sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade && sudo apt-get full-upgrade && sudo apt-get purge && sudo apt-get autoremove -y?>";
 // Write the contents back to the file
 file_put_contents($file, $current);
 ?>
