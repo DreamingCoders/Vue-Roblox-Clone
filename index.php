@@ -1,6 +1,6 @@
 <?php
 $siteName = "One Page App";
-$siteDesc "One Page is a One Paged Laravel alternative for sandbox/roblox like websites. everything is loading into one page and templated amazingly with raw PHP. We give similar features to Laravel but without having to use their bloated regex and allow you to code full PHP without implicitly needing new routing, you can add pages via get requests javascript routes and database logics, much more to offer than your conventional framework!";
+$siteDesc = "One Page is a One Paged Laravel alternative for sandbox/roblox like websites. everything is loading into one page and templated amazingly with raw PHP. We give similar features to Laravel but without having to use their bloated regex and allow you to code full PHP without implicitly needing new routing, you can add pages via get requests javascript routes and database logics, much more to offer than your conventional framework!";
 ?>
 <!DOCTYPE html>
 <html lang="en">
