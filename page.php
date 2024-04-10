@@ -69,7 +69,6 @@ switch ($page) {
     case 'forum':
         echo '<h1>Forum</h1><p>Forums are coming soon stay up to date in the '.$siteName.' Discord!</p>';
         break;
-    default:
     case 'search':
         if(isset($_POST['search'])){
             echo"<div class='alert alert-danger text-center'>Failed to search POST!</div>";
