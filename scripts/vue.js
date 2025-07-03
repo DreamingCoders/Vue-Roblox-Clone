@@ -7,7 +7,6 @@ new Vue({
     methods: {
         loadPage(page) {
             // If the user is on the specific URL, load the default page
-            if (window.location.href === 'https://nova-cubes.com/xmrminer/active/index.php') {
                 console.log("Loading default page...");
                 page = 'defaultPage'; // Set the page to 'defaultPage'
             }
